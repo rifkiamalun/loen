@@ -1,0 +1,107 @@
+<html>
+<head>
+<title>Form Biodata</title>
+<!---Maaf Min Saya hanya bisa mengerjakan begini , ini saja yang saya bisa , karena saya masih belajar
+tahap HTML & CSS , Doakan Saya Min agar saya bisa ke tahap bahasa program yang lain -->
+<style>
+table {
+ width: 50%;
+ padding: 2px;
+ border: 5px solid #fff;
+ } 
+ </style>
+<body bgcolor="#66ccff">
+<div align="center">
+<script language ="JavaScript">
+<!--
+fuction alert(fform){
+var nim =(document.fform.nim.value);
+var nama =(document.fform.nim.value);
+var fakultas =(document.fform.nim.value);
+var ket = "",
+ if (document.fform.wanita.checked == true)
+ {
+  ketx = "Laki - Laki";
+  }
+  if (document.fform.wanita.checked == false &&
+  document.fform.wanita.checked == false )
+  {
+  ketx = "";
+  
+  } 
+  else if (document.fform.wanita.checked == true
+  {
+   ketx = "Pria";
+   }
+   var agama =(document.fform.agama.value);
+   var ket = "";
+   var ket1 = "";
+   var ket2 = "";
+   var ket3 = "";
+   if (document.fform.browsing.checked == true)
+   {
+    ket = "Browsing";
+   {
+   if (document.fform.baca.checked == true)
+    ket1 = "Membaca Buku";
+   }
+   if (document.fform.bermain.checked == true)
+    ket2 = "Bermain"
+   {
+   if (document.fform.bermain.checked == true)
+    ket3 = "Photography"
+   } 
+ var alamat =(document.fform.alamat.value);
+ alert ('NIM :' + nim + ' Nama :' + nama+ ' fakultas :' +fakultas ' jenis kelamin :' +ketx+ ' agama :' +agama+  
+ ' hobi :' +ket+ ' ' +ket1+ ' ' +ket2+ ' ' +ket3+ ' alamat :' +alamat);
+ }
+ //-->
+ </script>
+ <h3 style="border:2px solid Tomato;">Form biodata mahasiswa</h3>
+ <form name="fform method="post: action="">
+ <table width=1000' height=500 border="5">
+ <tr>
+ <td colspan="3"><div align="center">Form Biodata</div></td>
+ </tr>
+ <tr>
+    <td>Nama</td>
+	<td>:</td>
+	<td> <label>
+	     <input type="text" name"nama" value="Rifki Amalun">
+		 </label></td>
+		 </tr>
+		 <tr>
+		 <td>Asal Sekolah</td>
+		 <td>:</td>
+		 <td><select name="fakultas">
+	<option>SMK LETRIS INDONESIA 1</option>
+	</select></td> 
+	  <tr>
+	  <td>Jenis Kelamin</td>
+	  <td>:</td>
+	  <td>
+	  <input type="radio" value="Laki-Laki" name="wanita">Laki-Laki
+	  </td>
+	  <tr>
+	    <td>Agama</td>
+		<td>:</td>
+		<td><select name="agama">
+		<option>Islam</option>
+		</select></td></tr> 
+		<tr>
+		  <td height="45">hobi</td>
+		  <td>:</td>
+		  <td><label>Photography | Browsing | Coffe Maker</label></td>
+			  </td>
+		<tr>
+		   <td>Alamat</td>
+		   <td>:</td>
+		   
+		   <td><label>Jl.KH.Dewantara No 21 Tangerang Selatan</label></td>
+			</tr>
+			</div>
+			</body>
+			</html>
+			
+   
+   
