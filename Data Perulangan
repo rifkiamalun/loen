@@ -1,0 +1,19 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>Perulangan</title>
+<!---Maaf Min Saya hanya bisa mengerjakan begini , ini saja yang saya bisa , karena saya masih belajar
+tahap HTML & CSS , Doakan Saya Min agar saya bisa ke tahap bahasa program yang lain -->
+<body>
+<script>
+document.write("<p>Nama Saya Rifki Amalun!</p>");
+document.write("<p>Nama Saya Rifki Amalun!</p>");
+document.write("<p>Nama Saya Rifki Amalun!</p>");
+document.write("<p>Nama Saya Rifki Amalun!</p>");
+document.write("<p>Nama Saya Rifki Amalun!</p>");
+document.write("<p>Nama Saya Rifki Amalun!</p>");
+document.write("<p>Nama Saya Rifki Amalun!</p>");
+document.write("<p>Nama Saya Rifki Amalun!</p>");
+</script>
+</body>
+</html>
