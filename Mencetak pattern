@@ -1,0 +1,13 @@
+
+<?php
+$ukuran=7;
+for($a=1; $a<=$ukuran; $a++){
+	for($b=1; $b<=$ukuran; $b++){ if($b>=6){
+			echo "* ";
+		} else{
+			echo "- ";
+		}
+	}
+	echo "<br/>";
+}
+?>
